@@ -16,7 +16,13 @@ namespace Avonix
         {
             Console.Write("root@avoos:=> ");
             var input = Console.ReadLine();
+            if (input == "help")
+            {
+                Console.WriteLine("Coming soon......");
+            }
+            else { 
             Console.WriteLine("avoh: Command not found!");
+            }
             //Console.WriteLine(input);
         }
     }
